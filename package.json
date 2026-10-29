@@ -1,0 +1,26 @@
+{
+  "name": "country-conquest",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 5173",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0 --port 5173"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@svg-maps/world": "^2.0.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "svg-path-bounds": "^1.0.2",
+    "world-countries": "^5.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.2",
+    "vite": "^8.3.5"
+  }
+}
